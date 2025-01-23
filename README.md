@@ -1,5 +1,5 @@
 <p align="center">
-  <img src='./assets/logo.PNG' width="800">
+  <img src='./assets/logo.png' width="800">
 </p>
 
 <h3 align="center">Uni-Anti: A Unified Framework for Antibody Optimization</h3>
@@ -10,7 +10,7 @@
 
 ## About The Project
 
-This paper shifts the research focus from generating mutations to evaluating mutational effects and indirectly explores the underlying fitness landscape by focusing on regions where DDGs are minimized. To this end, we train a simple but effective DDG predictor (Light-DDG) by data augmentation and distillation. Furthermore, we show that Light-DDG can serve as a good optimizer and explainer within a Unified framework for Antibody optimization (Uni-Anti).
+This paper shifts the research focus from generating mutations to evaluating mutational effects and indirectly explores the underlying fitness landscape by focusing on regions where DDGs are minimized. We train a simple but effective DDG predictor (Light-DDG) by data augmentation and distillation. Furthermore, we show that Light-DDG can serve as a good optimizer and explainer within a Unified framework for Antibody optimization (Uni-Anti).
 
 <p align="center">
   <center>
