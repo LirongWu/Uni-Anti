@@ -6,6 +6,8 @@
 
 <center>Lirong Wu, Yunfan Liu, Haitao Lin, Yufei Huang, Guojiang Zhao, Zhifeng Gao, Stan Z. Li. In <a href="https://openreview.net/forum?id=IxmWIkcKs5">ICLR</a>, 2025.</center>
 
+<h4 align="center">A Free-to-use Online <a href="http://www.manimer.com:9090/antibody">Platform</a> is released!</h4>
+
 
 
 ## About The Project
@@ -20,9 +22,9 @@ This paper shifts the research focus from generating mutations to evaluating mut
 </p>
 
 
-## **Online Platform**
+## **[Platform Usage](http://www.manimer.com:9090/antibody)**
 
-We have developed a free-to-use online platform to help researchers with three tasks related to antibody design.
+We have developed a free-to-use online [platform](http://www.manimer.com:9090/antibody) to help researchers with three tasks related to antibody design.
 
 ####  Task 1 — Evaluation: DDG Prediction (LightDDG)
 
