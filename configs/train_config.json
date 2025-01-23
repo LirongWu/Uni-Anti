@@ -1,0 +1,19 @@
+{
+  "num_cvfolds": 3,
+  "patch_size": 32,
+  "node_feat_dim": 128,
+  "pair_feat_dim": 128,
+  "num_layers": 4,
+  "n_heads": 4,
+  "pre_epoch": 5000,
+  "max_epoch": 15000,
+  "val_freq": 1000,
+  "lr": 0.0003,
+  "weight_decay": 0.0,
+  "batch_size": 32,
+  "seed": 2024,
+  "split_seed": 0,
+  "ab_mode": 1,
+  "input_mode": 0,
+  "loss_weight": 0.1
+}
