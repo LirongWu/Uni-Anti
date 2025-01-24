@@ -116,13 +116,12 @@ If you are interested in our papers, or if you use our platform in your research
 }
 ```
 ```
-@inproceedings{
-anonymous2025a,
-title={A Simple yet Effective \${\textbackslash}Delta{\textbackslash}Delta G\$ Predictor is An Unsupervised Antibody Optimizer and Explainer},
-author={Wu, Lirong and Liu, Yufan and Lin, Haitao and Huang, Yufei and Zhao, Guojiang and Gao, Zhifeng and Li, Stan Z},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=IxmWIkcKs5}
+@inproceedings{wu2025simple,
+  title={A Simple yet Effective \${\textbackslash}Delta{\textbackslash}Delta G\$ Predictor is An Unsupervised Antibody Optimizer and Explainer},
+  author={Wu, Lirong and Liu, Yufan and Lin, Haitao and Huang, Yufei and Zhao, Guojiang and Gao, Zhifeng and Li, Stan Z},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=IxmWIkcKs5}
 }
 ```
 
