@@ -4,9 +4,9 @@
 
 <h3 align="center">Uni-Anti: A Unified Framework for Antibody Optimization</h3>
 
-<center>Lirong Wu, Yunfan Liu, Haitao Lin, Yufei Huang, Guojiang Zhao, Zhifeng Gao, Stan Z. Li. In <a href="https://openreview.net/forum?id=IxmWIkcKs5">ICLR</a>, 2025.</center>
+<h6 align="center">Lirong Wu, Yunfan Liu, Haitao Lin, Yufei Huang, Guojiang Zhao, Zhifeng Gao, Stan Z. Li. In <a href="https://openreview.net/forum?id=IxmWIkcKs5">ICLR</a>, 2025.</h6>
 
-<h4 align="center">A Free-to-use Online <a href="http://www.manimer.com:9090/antibody">Platform</a> is released!</h4>
+<h3 align="center">A Free-to-use Online <a href="http://www.manimer.com:9090/antibody">Platform</a> is released!</h3>
 
 
 
@@ -17,7 +17,6 @@ This paper shifts the research focus from generating mutations to evaluating mut
 <p align="center">
   <center>
   <img src='./assets/framework.PNG' width="800">
-  <figcaption>Figure. A High-level Overview of Uni-Anti with Light-DDG as the core.</figcaption>
   </center>
 </p>
 
@@ -74,7 +73,7 @@ The default PyTorch version is 1.8.1 and cudatoolkit version is 11.3. They can b
 
 ## Usage
 
-### Pre-train, Fine-tune, and KD on three SKEMPI datasets
+### Pre-training, Fine-tuning, and KD on three SKEMPI datasets
 
 ```
 python -B train.py
@@ -94,13 +93,13 @@ python -B evaluate.py --task_type {task}
 
 Four tasks are currently supported:
 
-(1) “validation”: testing on the validation set of SKEMPI v2.0; 
+(1) validation: testing on the validation set of SKEMPI v2.0; 
 
-(2) “prediction”: predicting DDGs for mutations of interest; 
+(2) prediction: predicting DDGs for mutations of interest; 
 
-(3) “ explaination”: learning mutation preferences for the sites of interest; 
+(3) explaination: learning mutation preferences for the sites of interest; 
 
-(4) optimizing the sites to produce better antibodies.
+(4) optimization: optimizing the sites to produce better antibodies.
 
 
 
@@ -116,8 +115,16 @@ If you are interested in our papers, or if you use our platform in your research
   year={2024}
 }
 ```
-
-
+```
+@inproceedings{
+anonymous2025a,
+title={A Simple yet Effective \${\textbackslash}Delta{\textbackslash}Delta G\$ Predictor is An Unsupervised Antibody Optimizer and Explainer},
+author={Wu, Lirong and Liu, Yufan and Lin, Haitao and Huang, Yufei and Zhao, Guojiang and Gao, Zhifeng and Li, Stan Z},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=IxmWIkcKs5}
+}
+```
 
 ## Feedback
 
