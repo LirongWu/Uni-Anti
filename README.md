@@ -106,7 +106,14 @@ Four tasks are currently supported:
 ## Citation
 
 If you are interested in our papers, or if you use our platform in your research, please cite the following papers:
-
+```
+@inproceedings{wu2025simple,
+  title={A Simple yet Effective $$\backslash$Delta$\backslash$Delta G $ Predictor is An Unsupervised Antibody Optimizer and Explainer},
+  author={Wu, Lirong and Liu, Yunfan and Lin, Haitao and Huang, Yufei and Zhao, Guojiang and Gao, Zhifeng and Li, Stan Z},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+```
 ```
 @article{wu2024learning,
   title={Learning to Predict Mutation Effects of Protein-Protein Interactions by Microenvironment-aware Hierarchical Prompt Learning},
